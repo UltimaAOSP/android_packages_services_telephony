@@ -931,6 +931,10 @@ public class PhoneInterfaceManager extends ITelephony.Stub implements CallModele
     public int getLteOnCdmaMode() {
         return mPhone.getLteOnCdmaMode();
     }
+    
+    public int getLteOnGsmMode() {
+       return mPhone.getLteOnGsmMode();
+   }
 
     @Override
     public void toggleHold() {
